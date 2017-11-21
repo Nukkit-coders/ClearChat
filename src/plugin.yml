@@ -1,0 +1,12 @@
+name: ClearChat
+version: "1.0"
+author: socialclubz.com
+api: ["1.0.0"]
+main: me.socialclubz.com.clearchat
+commands:
+  scc:
+    description: Clear global chat
+    permission: social.scc
+  cc:
+    description: Clear personal chat
+    permission: social.cc

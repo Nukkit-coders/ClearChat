@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="ClearChat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClearChat_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ClearChat.jar">
+        <element id="module-output" name="ClearChat" />
+      </element>
+      <element id="library" level="project" name="nukkit-1.0-SNAPSHOT" />
+    </root>
+  </artifact>
+</component>
