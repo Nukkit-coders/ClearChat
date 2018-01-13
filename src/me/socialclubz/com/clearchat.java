@@ -59,43 +59,9 @@ public class clearchat
             {
                 if (player.hasPermission("social.scc"))
                 {
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
+                    for (int i = 0; i < 121; i++) {
+                        Server.getInstance().broadcastMessage("");
+                    }
                 }
                 Server.getInstance().broadcastMessage("Global Chat Cleared");
                 return true;
@@ -112,47 +78,9 @@ public class clearchat
             {
                 if (player.hasPermission("social.cc"))
                 {
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
+                    for (int i = 0; i < 121; i++) {
+                        sender.sendMessage("");
+                    }
                 }
                 sender.sendMessage("You Cleared Your Chat");
                 return true;
